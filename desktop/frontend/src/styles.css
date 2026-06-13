@@ -18808,9 +18808,8 @@ a[href] {
 }
 
 :root[data-theme-style] .composer-wrap {
-  width: 100%;
-  max-width: none;
-  margin: 0;
+  max-width: var(--maxw);
+  margin: 0 auto;
 }
 
 :root[data-theme-style] .composer-card {
